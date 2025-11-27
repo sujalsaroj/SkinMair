@@ -157,7 +157,7 @@ function App() {
                 <motion.img
                   initial={{ y: 150, opacity: 0 }}
                   whileInView={{ y: 0, opacity: 1 }}
-                  transition={{ duration: 1.5, ease: "easeOut", delay: 4 }}
+                  transition={{ duration: 1.5, ease: "easeOut", delay: 6 }}
                   className="w-96"
                   src={oily}
                   alt="oily"
@@ -186,7 +186,7 @@ function App() {
                 <motion.img
                   initial={{ y: 150, opacity: 0 }}
                   whileInView={{ y: 0, opacity: 1 }}
-                  transition={{ duration: 1.8, ease: "easeOut", delay: 5 }} // thoda delay
+                  transition={{ duration: 1.8, ease: "easeOut", delay: 6 }} // thoda delay
                   className="w-72"
                   src={combination}
                   alt="combination"
@@ -215,7 +215,7 @@ function App() {
                 <motion.img
                   initial={{ y: 150, opacity: 0 }}
                   whileInView={{ y: 0, opacity: 1 }}
-                  transition={{ duration: 2.1, ease: "easeOut", delay: 5 }} // thoda aur delay
+                  transition={{ duration: 2.1, ease: "easeOut", delay: 6 }} // thoda aur delay
                   className="w-60"
                   src={dry}
                   alt="dry"
