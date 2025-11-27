@@ -157,7 +157,7 @@ function App() {
                 <motion.img
                   initial={{ y: 150, opacity: 0 }}
                   whileInView={{ y: 0, opacity: 1 }}
-                  transition={{ duration: 1.5, ease: "easeOut", delay: 6 }}
+                  transition={{ duration: 1.5, ease: "easeOut", delay: 4 }}
                   className="w-96"
                   src={oily}
                   alt="oily"
@@ -186,7 +186,7 @@ function App() {
                 <motion.img
                   initial={{ y: 150, opacity: 0 }}
                   whileInView={{ y: 0, opacity: 1 }}
-                  transition={{ duration: 1.8, ease: "easeOut", delay: 6 }} // thoda delay
+                  transition={{ duration: 1.8, ease: "easeOut", delay: 5 }} // thoda delay
                   className="w-72"
                   src={combination}
                   alt="combination"
@@ -215,7 +215,7 @@ function App() {
                 <motion.img
                   initial={{ y: 150, opacity: 0 }}
                   whileInView={{ y: 0, opacity: 1 }}
-                  transition={{ duration: 2.1, ease: "easeOut", delay: 6 }} // thoda aur delay
+                  transition={{ duration: 2.1, ease: "easeOut", delay: 5 }} // thoda aur delay
                   className="w-60"
                   src={dry}
                   alt="dry"
@@ -269,9 +269,7 @@ function App() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             className="text-4xl font-bold text-center mb-10"
-          >
-            About SkinMair
-          </motion.h1>
+          ></motion.h1>
 
           <div className="max-w-5xl mx-auto space-y-8 text-lg leading-8">
             <motion.p
