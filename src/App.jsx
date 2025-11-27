@@ -269,7 +269,9 @@ function App() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             className="text-4xl font-bold text-center mb-10"
-          ></motion.h1>
+          >
+            About SkinMair
+          </motion.h1>
 
           <div className="max-w-5xl mx-auto space-y-8 text-lg leading-8">
             <motion.p
